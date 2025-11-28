@@ -1,1 +1,0 @@
-Website for meg whyte's acting portfolio.
