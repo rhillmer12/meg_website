@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Headshots | Meg Whyte</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			#main > .main:first-child {
+				padding-top: 3.3em !important;
+			}
+			#headshots .row {
+				display: flex;
+				justify-content: center;
+				align-items: flex-start;
+				gap: 3em;
+				flex-wrap: wrap;
+				margin: 2em 0;
+			}
+			
+			#headshots .headshot-item {
+				text-align: center;
+				flex: 0 1 auto;
+			}
+			
+			#headshots .headshot-item .image {
+				display: block;
+				margin-bottom: 1.5em;
+				width: 400px;
+				height: 500px;
+				overflow: hidden;
+				border-radius: 0.5em;
+			}
+			
+			#headshots .headshot-item img {
+				width: 400px;
+				height: 500px;
+				object-fit: cover;
+				border-radius: 0.5em;
+				display: block;
+			}
+			
+			#headshots .headshot-item .button {
+				opacity: 0.45;
+				font-size: 0.85em;
+				transition: opacity 0.2s ease;
+			}
+			
+			#headshots .headshot-item .button:hover {
+				opacity: 0.65;
+			}
+			
+			@media screen and (max-width: 980px) {
+				#headshots .row {
+					gap: 2em;
+				}
+				
+				#headshots .headshot-item .image,
+				#headshots .headshot-item img {
+					width: 300px;
+					height: 375px;
+				}
+			}
+			
+			@media screen and (max-width: 736px) {
+				#headshots .row {
+					flex-direction: column;
+					align-items: center;
+					gap: 3em;
+				}
+				
+				#headshots .headshot-item .image,
+				#headshots .headshot-item img {
+					width: 250px;
+					height: 312px;
+				}
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+			<!-- Nav -->
+					<nav id="nav">
+						<div class="nav-brand">Margaret Whyte</div>
+						<ul>
+							<li><a href="about.html">About</a></li>
+							<li><a href="headshots.html" class="active">Headshots</a></li>
+							<li><a href="resume.html">Resume</a></li>
+							<li><a href="media.html">Media</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Headshots Section -->
+							<section id="headshots" class="main special">
+								<header class="major">
+									<h2>Headshots</h2>
+								</header>
+								
+								<div class="row">
+									<div class="headshot-item">
+										<span class="image">
+											<img src="images/headshot_1.png" alt="Headshot 1" />
+										</span>
+										<a href="images/headshot_1.png" download class="button" target="_blank" rel="noopener noreferrer">Download</a>
+									</div>
+									
+									<div class="headshot-item">
+										<span class="image">
+											<img src="images/headshot_2.png" alt="Headshot 2" />
+										</span>
+										<a href="images/headshot_2.png" download class="button" target="_blank" rel="noopener noreferrer">Download</a>
+									</div>
+									
+									<div class="headshot-item">
+										<span class="image">
+											<img src="images/headshot_3.png" alt="Headshot 3" />
+										</span>
+										<a href="images/headshot_3.png" download class="button" target="_blank" rel="noopener noreferrer">Download</a>
+									</div>
+								</div>
+
+							</section>
+
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
